@@ -11,6 +11,7 @@
     flex-direction: row; 
     flex-wrap: wrap; 
 }
+
 /* Flex itmes. */ 
 .flex-item { 
     display: block; 
@@ -40,4 +41,23 @@
 
 .item-6 {
     background: #45ff33;  
+}
+
+/* Tablet */ 
+@media screen and (min-width: 768px ) {
+    .item-2,
+    .item-3,
+    .item-5,
+    .item-6 {
+        width: 50%; 
+    }
+}
+
+/* Desktop Website */ 
+@media screen and (min-width: 1200px) {
+    .item-2,
+    .item-3,
+    .item-4 {
+        width: 33.333%;
+    }
 }
